@@ -1,0 +1,143 @@
+.heroImgSection {
+    padding: 60px 0 105px;
+    background-color: #fcdb00;
+}
+
+
+.navbar li {
+    display: inline-block;
+    margin-left: 36px;
+}
+
+.navbar li:first-child {
+    margin-left: 0;
+}
+
+.navbar li a {
+    padding: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #010101;
+    text-transform: capitalize;
+}
+
+.navbar ul {
+    display: inline-block;
+}
+
+.brandList li {
+    display: inline-block;
+    margin-right: 36px;
+}
+
+.brandList li i {
+    font-size: 40px;
+    color: #010101;
+}
+
+.inspiration {
+    margin-top: 70px;
+}
+
+.ipad {
+    margin-left: 40px;
+}
+
+
+/* ########### feature section css ############# */
+
+.featureSection {
+    padding: 120px 0 70px;
+}
+
+.thumbIcon i {
+    font-size: 50px;
+}
+
+.thumbnail {
+    margin-bottom: 90px;
+}
+
+.thumbInfo h3 {
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    color: #010101;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.thumbInfo p {
+    color: #898989;
+    font-size: 16px;
+}
+
+
+/* ############### footerSection css ############# */
+
+.footerSection {
+    background-color: #010101;
+    padding: 90px 0 130px;
+}
+
+.footerSection .pri-heading {
+    color: #fcdb00;
+}
+
+.footerSection .sec-heading {
+    color: #898989;
+}
+
+.btn {
+    width: 125px;
+    background-color: #fcdb00;
+    margin-left: 15px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #fcdb00;
+    color: #010101;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.email {
+    width: calc(100% - 145px);
+    height: 50px;
+    border: 0px;
+    outline: none;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+    color: #fcdb00;
+    background-color: #010101;
+}
+
+.socialLinks {
+    margin-bottom: 120px;
+}
+
+.socialLinks li {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.socialLinks li i {
+    font-size: 36px;
+    color: #fcdb00;
+}
+
+.footerLinks li,
+.footerLinks li a {
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.footerLinks.notCap li,
+.footerLinks.notCap li a {
+    text-transform: none;
+}
